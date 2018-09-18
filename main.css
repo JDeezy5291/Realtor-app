@@ -1,0 +1,308 @@
+/*************
+GENERAL STYLES
+*************/
+body {
+	font-size: 16px;
+	margin-top: 70px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: Poppins;
+}
+
+p {
+	font-family: Roboto;
+}
+
+/*************
+	NAVBAR
+*************/
+.navbar-default {
+	background: #fff;
+	border: 0;
+	font-family: Poppins;
+}
+
+.navbar-brand {
+	font-size: 20px;
+	color: #000 !important;
+	font-weight: bold;
+}
+
+/*************
+   SHOWCASE
+*************/
+#showcase {
+	background: url("images/showcase.jpeg");
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	padding: 40px;
+	color: #fff;
+	border-top: #333 7px solid;
+	border-bottom: #333 7px solid;
+	height: 700px;
+	width: 100;
+	opacity: .8;
+}
+
+#showcase1 {
+	background: url("images/showcase2.jpg");  	*/
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	padding: 40px;
+	color: #fff;
+	border-top: #333 7px solid;
+	border-bottom: #333 7px solid;
+	height: 700px;
+	width: 100%;
+	opacity: .8;
+}
+
+#showcase2 {
+	background: url("images/rentalShowcase.jpeg");
+  	background-position: center;  	
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	padding: 40px;
+	color: #fff;
+	border-top: #333 7px solid;
+	border-bottom: #333 7px solid;
+	height: 700px;
+	width: 100%;
+	opacity: .8;
+}
+
+#showcaseAbout .aboutImg1 {
+	background: url("images/about/aboutImg1.jpeg");
+  	background-position: center center;
+  	background-repeat: no-repeat;
+  	height: 350px;
+}
+
+#showcaseAbout .aboutImg2 {
+	background: url("images/about/aboutImg2.jpeg");
+  	background-position: center center;
+  	background-repeat: no-repeat;
+  	height: 350px;
+}
+
+h1.aboutTitle {
+	margin-top: 50px;
+	font-size: 50px;
+}
+
+p.personTitle {
+	font-size: 18px;
+}
+
+.aboutUsImg {
+	height: auto;
+	width: 100%;
+	padding: 40px 0;
+}
+
+#showcase2Info h1, p {
+	text-align: center;
+}
+
+#showcase h1 {
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+
+#showcase img {
+	width: 100%;
+	margin-top: 100px;
+}
+
+#showcase .showcase-right {
+	margin-top: 90px;
+}
+
+#showcase .showcase-right h1, p {
+	text-align: center;
+}
+
+#showcase1 .showcase-right h1, p {
+	text-align: center;
+}
+
+.input-group-addon {
+	background-color:#ffffff;
+}
+
+#inputGroupSuccess1 {
+	border-left: 0px;
+}
+
+#showcaseBtns {
+	margin-bottom: 40px;
+}
+
+.btn-default {
+	color: #fff;
+	background-color: #333;
+	border-color: #333;
+}
+
+a.btn.btn-default {
+	padding: 15px 40px;
+}
+
+/*************
+  TESTIMONIAL
+*************/
+#testimonial {
+	background: #f1f1f1;
+	padding: 50px 0 30px 0;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 70px;
+}
+
+#testimonial p {
+	font-size: 26px;
+	font-family: 'Josefin Sans';
+	color: #000;
+}
+
+#testimonial p.customer {
+	font-size: 20px;
+	color: #666;
+}
+
+/*************
+  THUMBNAILS
+*************/
+#houses h1 {
+	text-align: center;
+}
+
+.thumbnail {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+   transition: 0.3s;
+   float: left;
+   width: 250px;
+   border-radius: 5px;
+   margin: 20px 10px;
+   height: 400px;
+}
+
+ .thumbnail-description {
+   min-height: 40px;
+ }
+
+ .thumbnail:hover {
+   /*cursor: pointer;*/
+   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
+ }
+
+ .thumbnail img {
+ 	width: 100%;
+ }
+
+/*CAROUSEL*/
+ #myCarousel {
+ 	height: 350px;
+ 	width: 550px;
+ }
+
+ .carousel-inner div.item img {
+ 	width: 550px;
+ 	height: 350px;
+ }
+
+/*************
+    INFO1
+*************/
+#info1 .info-left img {
+	width: 100%;
+	padding-top: 95px;
+}
+
+div.info-left, div.info-right h2, p {
+	text-align: center;
+}
+
+#info1 .info-right {
+	margin-top: 90px;
+}
+
+#info2 {
+	margin-top: 20px 0 60px 0;
+}
+
+/*************
+    CONTACT
+*************/
+#contact {
+	background: url("images/showcase1.jpeg");
+  	background-position: center;
+  	background-size: cover;
+	padding: 40px;
+	color: white;
+	border-top: #333 7px solid;
+	border-bottom: #333 7px solid;
+	height: 500px;
+}
+
+/*************
+    FOOTER
+*************/
+footer {
+	padding: 30px;
+}
+
+/*************
+MEDIA QUERIES
+*************/
+@media screen and (max-width: 483px) {
+	div#showcaseBtns a.showcaseBtn1,
+	div#showcaseBtns a.showcaseBtn2,
+	div#showcaseBtns a.showcaseBtn3 {
+		display: block;
+		float: none;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	#showcaseAbout .aboutImg2 {
+		display: none;
+	}
+	#showcaseAbout .aboutImg1 {
+		width: 100%;
+		background-size: contain;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.aboutUsImg {
+		width: 100%;
+		background-size: contain;
+	}
+	section#houses div.row {
+	 	margin-left: 75px;
+	 }
+}
+
+@media screen and (max-width: 659px) {
+	section#houses div.row {
+	 	margin: 0 -25px;
+	 }
+}
+
+@media screen and (min-width: 766px) {
+	#person2reformat {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 766px) {
+	#person2 {
+		display: none;
+	}
+	#person2reformat {
+		display: inline-block;
+	}
+}
